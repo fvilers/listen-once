@@ -1,5 +1,5 @@
 import http from "node:http";
-import { listenOnce } from "../src/index.js";
+import { listenOnce } from "../src/listen-once.js";
 
 const PORT = 3000;
 const HOSTNAME = "localhost";
