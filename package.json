@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "A Node.js web server that listen only once",
   "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fvilers/listen-once.git"
@@ -18,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/fvilers/listen-once/issues"
   },
-  "homepage": "https://github.com/fvilers/listen-once#readme"
+  "homepage": "https://github.com/fvilers/listen-once#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^18.16.19",
+    "typescript": "^5.1.6"
+  }
 }
