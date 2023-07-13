@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "demo": "ts-node --esm ./demo/index.ts",
     "start": "node ./dist"
   },
   "repository": {
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.19",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
 }
