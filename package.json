@@ -1,6 +1,6 @@
 {
   "name": "@fvilers/listen-once",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Node.js web server that listen only once",
   "type": "module",
   "main": "dist/src/listen-once.js",
