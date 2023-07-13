@@ -1,0 +1,22 @@
+{
+  "name": "@fvilers/listen-once",
+  "version": "0.0.0",
+  "description": "A Node.js web server that listen only once",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvilers/listen-once.git"
+  },
+  "keywords": [
+    "typescript",
+    "web",
+    "server",
+    "typescript-library"
+  ],
+  "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvilers/listen-once/issues"
+  },
+  "homepage": "https://github.com/fvilers/listen-once#readme"
+}
